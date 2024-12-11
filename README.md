@@ -23,3 +23,4 @@ npm install whatsapp-web.js qrcode-terminal
 Replace YOUR_PHONE_NUMBER@c.us in the sendMessages function with the target phone number. 
 Ensure it is in the correct format (e.g., 6281234567890@c.us for an Indonesian number).
 Run the bot:
+node index.js
