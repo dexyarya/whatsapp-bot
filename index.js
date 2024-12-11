@@ -20,7 +20,7 @@ client.on('ready', () => {
 
 // Fungsi untuk mengirim pesan sebanyak 10 kali
 const sendMessages = () => {
-    const number = 'Nomor Kalian@c.us';
+    const number = 'Nomor tujuan@c.us';
     const message = 'Aku Sayang Kamu Tapi Kamu Sayang Dia';
     for (let i = 1; i <= 200; i++) {
         client.sendMessage(number, message).then(response => {
